@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/phone.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/logo.png.jpeg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit" id="serch-item" onkeyup="search()">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      
+      <div class="phones" id="phones">
+        <div class="cont-ph">
+          <div class="product-img">
+            <img src="./img/phone1.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <h4>APPLE iphone 14(Starlight, 128 GB)</h4>
+            <div class="star">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <h3>₹79,900</h3>
+            <div class="highlights">
+              <div class="heading">Highlights</div>
+              <div class="info">
+                128 GB ROM 15.49 cm (6.1 inch) Super Retina XDR Display 12MP +
+                12MP | 12MP Front Camera A15 Bionic Chip, 6 Core Processor
+                Processor
+              </div>
+            </div>
+            <div class="specifications">
+              <h3>Specifications</h3>   
+            </div>
+
+            <div class="product-info">
+              <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">General</th>
+                  </tr>
+                </thead>
+                <tbody >
+                  <tr>
+                    <td>
+                      In The Box</td>
+                    <td>
+                      Handset, USB-C to Lightning Cable, Documentation</td>
+                  </tr>
+                  <tr>
+                    <td>Model Number
+                    </td>
+                    <td>MPV03HN/A</td>
+                  </tr>
+                  <tr>
+                    <td>Model Name</td>
+                    <td>
+                      iPhone 14</td>
+                  </tr>
+                  <tr>
+                    <td>Color
+                    </td>
+                    <td>
+                      Purple</td>
+                  </tr>
+                  <tr>
+                    <td>Browse Type</td>
+                    <td>
+                      Smartphones</td>
+                  </tr>
+                  <tr>
+                    <td>SIM Type</td>
+                    <td>
+                      Dual Sim(Nano + eSIM)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Hybrid Sim Slot</td>
+                    <td>
+                       No
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Touchscreen</td>
+                    <td>
+                     Yes
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OTG Compatible</td>
+                    <td>
+                     No
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sound Enhancements</td>
+                    <td>      
+Built?in Stereo Speaker
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="seprater">
+         <div class="cont-ph">
+          <div class="product-img">
+            <img src="./img/narzo-50i-rmx3231-realme-original-imag75h86v5thnzy.webp" alt="" />
+          </div>
+          <div class="product-details">
+            <h4>realme Narzo 50i (Mint Green, 64 GB)(4 GB RAM)</h4>
+            <div class="star">
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <h3>₹8,099</h3>
+            <div class="highlights">
+              <div class="heading">Highlights</div>
+              <div class="info">
+                4 GB RAM | 64 GB ROM | Expandable Upto 256 GB
+                16.51 cm (6.5 inch) Display
+                8MP Rear Camera | 5MP Front Camera
+                5000 mAh Battery
+                SC9863A Processor
+              </div>
+            </div>
+            <div class="specifications">
+              <h3>Specifications</h3>
+              <hr />
+              <h3 class="gen">General</h3>
+            </div>
+
+            <div class="product-info">
+              <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                 
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>in the box</td>
+                    <td>handset, charger, earphone, doccumentation</td>
+                  
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                   
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            </div>
+          </div>
+         </div>
+        </div>
+        
+
+      </div>
+     
+    </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                      <li><a href="#">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                      <li><a href="#">affiliate program</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">shipping</a></li>
+                      <li><a href="#">returns</a></li>
+                      <li><a href="#">order status</a></li>
+                      <li><a href="#">payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                      <li><a href="#">watch</a></li>
+                      <li><a href="#">bag</a></li>
+                      <li><a href="#">shoes</a></li>
+                      <li><a href="#">dress</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="https://www.facebook.com/vaibhav.thakare.503" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://instagram.com/mauli_mobile_mangrulpir?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </footer>
+<script src="api.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
